@@ -1,0 +1,15 @@
+public class Incre6
+{
+    public static void main(String[] args) 
+    {
+        int m = 0, n = 0,  o ;
+         
+         o = --m * --n * m-- * n--;
+
+		System.out.println("m =" +m);
+
+		System.out.println("n =" +n);
+
+		System.out.println("o =" +o);
+    }
+}
